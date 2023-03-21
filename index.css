@@ -1,0 +1,133 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    gap: 10px;
+
+}
+nav > div{
+    
+    width: 80%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+nav input, nav button{
+    background-color: #262626;
+    padding: 6px 20px;
+    border-radius: 10px;
+}
+
+nav input{
+    flex-grow: 1;
+}
+
+.section-container {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px 0;
+
+}
+.small-img{
+    width: 50px;
+}
+
+.large-img{
+    width: 150px;
+}
+
+.section-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.section-right button{
+    background-color: #FECB03;
+    color: #262626;
+    padding: 10px;
+    align-self: center;
+    border-radius: 20PX;
+    
+}
+
+.about-section{
+    margin: 20px 50px;
+    background-color: #262626;
+   
+   padding: 20px;
+    border-radius: 10px;
+}
+
+.categories-section{
+    margin: 20px 50px;
+}
+
+.card-container{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0 10px;
+    margin-top: 5px;
+    gap: 10px;
+
+}
+.card-item{
+    width: 28%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #262626;
+    margin-top: 20px;
+    padding-bottom: 80px;
+    position: relative;
+}
+
+.card-item > h3{
+    color: #C4C4C4;
+    margin-bottom: 5px;
+}
+
+.card-item > p{
+    font-size: 12px;
+}
+
+.card-item > button{
+    background-color: #FECB03;
+    border-radius: 20px;
+    color: #262626;
+    position: absolute;
+    right: 7px;
+    bottom: 6px;
+    padding: 10px;
+    width: 120px;
+}
+
+footer{
+    display: flex;
+    margin: 50px 50px;
+    padding: 15px;
+    justify-content: space-evenly;
+    gap: 10px;
+    background-color:#262626;
+    border-radius: 10px;
+}
+
+footer>div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+
+
+
